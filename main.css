@@ -1,0 +1,112 @@
+body{
+    background-color: rgba(84, 74, 74, 0.405);
+    height: px;
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.landing-div{
+    display: flex;
+    height: 500px;
+    background: linear-gradient(to bottom right,rgba(13, 12, 50, 0.622), rgb(13, 55, 66), rgba(18, 9, 45, 0.677));
+    flex: 1;
+    margin-top: 20px;
+    flex-direction: row;
+    margin-left: -10px;
+    margin-right: -10px;
+    
+
+}
+
+.para-1{
+    padding: 20px;
+    margin: 100px 0px 20px 100px;
+    height: 300px;
+    width: 450px;
+    color: rgba(255, 255, 255, 0.738);
+    
+    
+}
+
+.first-head{
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 0px;
+    
+}
+
+.des-1{
+    margin-top: 25px;
+    font-size: 14.6px;
+    letter-spacing: 0.3px;
+    line-height: 22px;
+    
+    
+}
+
+.images-1{
+    height: 300px;
+    width: 700px;
+    margin-top:90px;
+    margin-bottom: 50px;
+    margin-left: 150px;
+    
+    
+}
+
+.images-1 img{
+    width: 90px;
+    height: 90px;
+    padding: 30px;
+}
+
+.shop-button{
+    margin-top: 15px;
+    background-color: rgb(15, 52, 101);
+    border-radius: 3px;
+    padding: 12px 25px 12px 25px;
+    border: none;
+    font-weight: 550;
+    color: rgba(255, 255, 255, 0.905);
+    font-size: 14px;
+    letter-spacing: 0.3px;
+    transition: opacity 0.7s,
+    box-shadow 0.7s,
+    margin-top 0.7s,
+    margin-left 0.7s,
+    background-color 0.7s;
+    cursor: pointer;
+
+}
+
+.shop-button:hover{
+    background-color: rgb(6, 36, 74);
+    box-shadow: -5px 5px 10px rgba(120, 132, 143, 0.551);
+    margin-top: 18px;
+    margin-left: 3px;
+}
+
+.shop-button:active{
+    opacity: 0.5;
+}
+
+@media(max-width:600px){
+    .images-1{
+        display: none;
+    }
+    .first-head,.des-1,.shop-button{
+        margin-left: -50px;
+    }
+   
+}
+@media(601px<width<1400px){
+    .images-1{
+        display: none;
+    }
+    .first-head,.des-1,.shop-button{
+        margin-left: -50px;
+    }
+   
+}

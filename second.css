@@ -1,0 +1,59 @@
+.second-sec{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    height: 200px;
+
+}
+
+.second-sec a{
+    color: rgb(19, 14, 124);
+    font-size: 17px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.Mc-365,.shop-xbox,.windows-11,.surfaces-dev{
+    
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.second-sec img{
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+
+.txt1{
+    
+    margin-left: -122px;
+    margin-top: 0px;
+    
+}
+
+.txt2{
+    margin-left: -70px;
+    margin-top: 0px;
+}
+
+.txt3{
+    margin-left: -88px;
+    margin-top: 0px;
+
+}
+
+.txt4{
+     margin-left: -105px;
+     margin-top: 0px;
+}
+
+@media(max-width:1000px){
+    .second-sec{
+        flex-direction: column;
+        margin-left: 210px;
+        margin-top: 10px;
+    }
+}

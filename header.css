@@ -1,0 +1,159 @@
+.Header{
+  margin: -10px -10px 0px -10px;
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(19, 16, 59);
+}
+
+.left-section{
+    width: 137px;
+    padding-left: 30px;
+    min-width: 0;
+    display: flex;
+    align-items: center;
+
+}
+.img-4{
+    display: none;
+    width: 18px;
+    height: 19px;
+    margin-left: -110px;
+}
+
+.mic-logo{
+      width: 108px;
+      height: 23px;
+      
+}
+
+.middle-section{
+    max-width: 600px;
+    flex: 1;
+    margin-left: 10px;
+    margin-right: 70px;
+    align-items: center;
+    
+    display: flex;
+}
+
+.middle-section a{
+    padding: 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgba(207, 206, 206, 0.767);
+    margin-top: 2px;
+}
+
+.right-section{
+    
+    max-width: 350px;
+    margin-left: 250px;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    
+}
+.right-section img{
+    width: 15px;
+    margin-top: 2px;
+    padding-left: 4px;
+    
+    
+}
+.right-section a{
+    padding: 10px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: rgba(207, 206, 206, 0.767);
+    margin-top: 2px;
+
+}
+
+
+.sidebar{
+    position: fixed;
+    top:0px;
+    left: 0px;
+    height: 100vh;
+    width: 250px;
+    z-index: 999;
+    background-color: rgba(8, 7, 38, 0.838);
+    backdrop-filter: blur;
+    box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sidebar a{
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(252, 252, 252);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 100%;
+}
+
+.menu{
+   
+    display: none;
+}
+
+@media(max-width:1300px){
+    .hideOnMobile{
+        display: none;
+    }
+    .menu{
+        
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+    }
+    
+}
+
+
+@media(max-width:800px){
+    
+
+    .left-section{
+        margin-left: 150px;
+
+    }
+    
+    .img-4{
+        
+        display: block;
+    }
+    
+
+    .search,.mi,.ca,.si{
+        display: none;
+        
+    }
+}
+
+@media(max-width:600px){
+    .left-section{
+        margin-left: 100px;
+    }
+    .search,.mi,.ca,.si{
+        display: none;
+        
+    }
+
+    .right-section{
+        margin-left: 10px;
+    }
+    
+    
+    
+
+    
+}
